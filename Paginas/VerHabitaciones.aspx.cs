@@ -62,7 +62,7 @@ namespace Recepcion.Paginas
                             }
 
 
-                            Response.Redirect("HospedarPersona.aspx?habitacion=" + habitacion);
+                            //Response.Redirect("HospedarPersona.aspx?habitacion=" + habitacion);
 
                         }
                     }
@@ -100,21 +100,18 @@ namespace Recepcion.Paginas
             TimeSpan tiempotranscurrido = DateTime.Now - FechaDeReserva;
             return tiempotranscurrido;
         }
+
         private bool ObtenerEstadoHabitacion(string habitacion)
         {
             if (habitacion.Equals("HabitacionLibre")) { 
             
-            return true;
+                return true;
 
             }
             else
             {
                 return false;
-
-            }
-            
-
-         
+            }                
         }
 
         private List<Persona> ObtenerPersonasDesdeLaBaseDeDatos()
