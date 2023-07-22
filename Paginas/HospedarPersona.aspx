@@ -39,11 +39,11 @@
         <br />
         <div>
             <asp:Label ID="lblTotal" CssClass="lblHospedaje" runat="server" Text="Total a Pagar: "></asp:Label>
-            <asp:Label ID="lblPrecio" CssClass="lblHospedaje" runat="server" Text="RD$ 0.00"></asp:Label>
+            <asp:Label ID="lblPrecio" CssClass="lblHospedaje" runat="server" Text="0.00"></asp:Label>
         </div>
         <br />
         <br />
-        <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" />
+        <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" OnClick="Insertar"  />
 
        
     </form>
