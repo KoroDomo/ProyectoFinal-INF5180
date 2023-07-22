@@ -1,0 +1,177 @@
+C:\Users\shade\Documents\sh\Recepcion\bin\Recepcion.dll.config
+C:\Users\shade\Documents\sh\Recepcion\bin\Recepcion.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\Recepcion.pdb
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csc.exe
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csc.exe.config
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csc.rsp
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csi.exe
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csi.exe.config
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\csi.rsp
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.AppContext.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Console.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.IO.Compression.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Net.Http.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.ValueTuple.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\vbc.exe
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\vbc.exe.config
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\vbc.rsp
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\VBCSCompiler.exe
+C:\Users\shade\Documents\sh\Recepcion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shade\Documents\sh\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shade\Documents\sh\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shade\Documents\sh\Recepcion\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+C:\Users\shade\Documents\sh\Recepcion\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+C:\Users\shade\Documents\sh\Recepcion\obj\Debug\Recepcion.csproj.CopyComplete
+C:\Users\shade\Documents\sh\Recepcion\obj\Debug\Recepcion.dll
+C:\Users\shade\Documents\sh\Recepcion\obj\Debug\Recepcion.pdb
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\Recepcion.dll.config
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\Recepcion.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\Recepcion.pdb
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csc.exe
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csc.exe.config
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csc.rsp
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csi.exe
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csi.exe.config
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\csi.rsp
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.AppContext.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Console.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.IO.Compression.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Net.Http.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.ValueTuple.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\vbc.exe
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\vbc.exe.config
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\vbc.rsp
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\VBCSCompiler.exe
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\obj\Debug\Recepcion.csproj.CopyComplete
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\obj\Debug\Recepcion.dll
+C:\Users\ROBIN XV\OneDrive\Escritorio\Pruebas\Recepcion\obj\Debug\Recepcion.pdb
+G:\Recepcion\bin\Recepcion.dll.config
+G:\Recepcion\bin\Recepcion.dll
+G:\Recepcion\bin\Recepcion.pdb
+G:\Recepcion\bin\roslyn\csc.exe
+G:\Recepcion\bin\roslyn\csc.exe.config
+G:\Recepcion\bin\roslyn\csc.rsp
+G:\Recepcion\bin\roslyn\csi.exe
+G:\Recepcion\bin\roslyn\csi.exe.config
+G:\Recepcion\bin\roslyn\csi.rsp
+G:\Recepcion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Recepcion\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Recepcion\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Recepcion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Recepcion\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Recepcion\bin\roslyn\System.AppContext.dll
+G:\Recepcion\bin\roslyn\System.Collections.Immutable.dll
+G:\Recepcion\bin\roslyn\System.Console.dll
+G:\Recepcion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Recepcion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Recepcion\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Recepcion\bin\roslyn\System.Globalization.Calendars.dll
+G:\Recepcion\bin\roslyn\System.IO.Compression.dll
+G:\Recepcion\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Recepcion\bin\roslyn\System.IO.FileSystem.dll
+G:\Recepcion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Recepcion\bin\roslyn\System.Net.Http.dll
+G:\Recepcion\bin\roslyn\System.Net.Sockets.dll
+G:\Recepcion\bin\roslyn\System.Reflection.Metadata.dll
+G:\Recepcion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Recepcion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Recepcion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Recepcion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Recepcion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Recepcion\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Recepcion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Recepcion\bin\roslyn\System.ValueTuple.dll
+G:\Recepcion\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Recepcion\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Recepcion\bin\roslyn\System.Xml.XPath.dll
+G:\Recepcion\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Recepcion\bin\roslyn\vbc.exe
+G:\Recepcion\bin\roslyn\vbc.exe.config
+G:\Recepcion\bin\roslyn\vbc.rsp
+G:\Recepcion\bin\roslyn\VBCSCompiler.exe
+G:\Recepcion\bin\roslyn\VBCSCompiler.exe.config
+G:\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Recepcion\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+G:\Recepcion\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+G:\Recepcion\obj\Debug\Recepcion.csproj.CopyComplete
+G:\Recepcion\obj\Debug\Recepcion.dll
+G:\Recepcion\obj\Debug\Recepcion.pdb
