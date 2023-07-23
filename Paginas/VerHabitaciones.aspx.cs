@@ -23,6 +23,17 @@ namespace Recepcion.Paginas
             public string Apellido { get; set; }
             public int ID { get; set; }
             public DateTime FechaDeReserva { get; set; }
+            public string Cedula { get; set; }
+            public int CantidadPersonas { get; set; }
+            public string Habitacion { get; set; }
+            public int Noches { get; set; }
+            public double Total { get; set; }
+
+            public override string ToString()
+            {
+                return "Nombre: " + Nombre + " | Apellidos: " + Apellido + " | Cedula" + Cedula;
+            }
+
         }
         private void CargarHabitaciones()
         {

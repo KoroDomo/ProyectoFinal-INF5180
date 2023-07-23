@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using static Recepcion.Paginas.VerHabitaciones;
 
 namespace Recepcion.Paginas
 {
@@ -23,10 +24,17 @@ namespace Recepcion.Paginas
             string nombre = txtNombre.Text;
             string apellidos = txtApellidos.Text;
             string cedula = txtCedula.Text;
-            string cantidad = txtCantidad.Text;
+            int cantidadPersonas = Convert.ToInt32(txtCantidad.Text);
             string habitacion = lblSeleccion.Text; //El valor sera el de la habitacion seleccionada en VerHabitaciones
             int noches = Convert.ToInt32(txtNoches.Text);
-            string total = lblPrecio.Text; //El precio dependera de la cantidad de noches ingresadas
+            double total = Convert.ToDouble(lblPrecio.Text); //El precio dependera de la cantidad de noches ingresadas
+
+            List<Persona> personasRegistradas = new List<Persona>{};
+
+            personasRegistradas.Add(
+                new Persona { Nombre = nombre, Apellido = apellidos, Cedula = cedula, CantidadPersonas = cantidadPersonas, Habitacion = habitacion, Noches = noches, Total = total }
+            );
+
             //txtID.Text = "";
             txtNombre.Text = "";
             txtApellidos.Text = " ";
@@ -48,7 +56,7 @@ namespace Recepcion.Paginas
                     cmd.Parameters.AddWithValue("@Nombre", nombre);
                     cmd.Parameters.AddWithValue("@Apellidos", apellidos);
                     cmd.Parameters.AddWithValue("@Cedula", cedula);
-                    cmd.Parameters.AddWithValue("@Cantidad", cantidad);
+                    cmd.Parameters.AddWithValue("@Cantidad", cantidadPersonas);
                     cmd.Parameters.AddWithValue("@Habitacion", habitacion);
                     cmd.Parameters.AddWithValue("@Noches", noches);
                     cmd.Parameters.AddWithValue("@Total", total);
@@ -58,9 +66,17 @@ namespace Recepcion.Paginas
                     con.Close();
                 }
             }
+            
+
             lblConfirmacion.Visible = true;
-            btnRegistrar.Enabled = false;
+            //btnRegistrar.Enabled = false;
             btnRegresar.Enabled = true;
+
+            foreach(var persona in personasRegistradas)
+            {
+                System.Diagnostics.Debug.WriteLine(persona.ToString());
+            }
+
 
 
         }
@@ -69,5 +85,7 @@ namespace Recepcion.Paginas
         {
             Response.Redirect("VerHabitaciones.aspx");
         }
+
+         
     }
 }
