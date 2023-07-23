@@ -15,6 +15,8 @@ namespace Recepcion.Paginas
 
         }
 
+
+
         protected void Insertar(object sender, EventArgs e)
         {
             //string id = txtID.Text;
@@ -23,14 +25,14 @@ namespace Recepcion.Paginas
             string cedula = txtCedula.Text;
             string cantidad = txtCantidad.Text;
             string habitacion = lblSeleccion.Text; //El valor sera el de la habitacion seleccionada en VerHabitaciones
-            string noches = txtNoches.Text;
+            int noches = Convert.ToInt32(txtNoches.Text);
             string total = lblPrecio.Text; //El precio dependera de la cantidad de noches ingresadas
             //txtID.Text = "";
             txtNombre.Text = "";
             txtApellidos.Text = " ";
             txtCedula.Text = " ";
             txtCantidad.Text = " ";
-            txtNoches.Text = " ";
+            txtNoches.Text = "0";
             lblSeleccion.Text = "";
             lblPrecio.Text = "0.00";
 
@@ -56,15 +58,16 @@ namespace Recepcion.Paginas
                     con.Close();
                 }
             }
+            lblConfirmacion.Visible = true;
+            btnRegistrar.Enabled = false;
+            btnRegresar.Enabled = true;
 
-            /*string CalcularPrecio()
-            {
-                double x = Convert.ToDouble(this.lblTotal);
-                return Convert.ToString(x * 100);
-            }*/
-            
+
         }
 
-    
+        protected void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("VerHabitaciones.aspx");
+        }
     }
 }
