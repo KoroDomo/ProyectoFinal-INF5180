@@ -34,7 +34,7 @@
         </div>
         <div>
             <asp:Label ID="lblNoches" CssClass="lblHospedaje" runat="server" Text="Noches: "></asp:Label>
-            <asp:TextBox ID="txtNoches" runat="server" Height="16px"></asp:TextBox>
+            <asp:TextBox ID="txtNoches" runat="server" OnBlur="CalcularPrecio" Height="16px"></asp:TextBox>
         </div>
         <br />
         <div>
@@ -43,7 +43,13 @@
         </div>
         <br />
         <br />
-        <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" OnClick="Insertar"  />
+        <div>
+            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" OnClick="Insertar"  />
+            <asp:Button ID="btnRegresar" runat="server" Text="Regresar" Enabled="False" OnClick="btnRegresar_Click" />
+        </div>
+        <br />
+        <asp:Label ID="lblConfirmacion" CssClass="lblHospedaje" runat="server" Text="REGISTRO REALIZADO!" ForeColor="Green" Visible="False"></asp:Label>
+        
 
        
     </form>
