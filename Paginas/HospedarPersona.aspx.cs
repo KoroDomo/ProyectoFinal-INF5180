@@ -13,13 +13,17 @@ namespace Recepcion.Paginas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (sender is Button)
+            {
+                
+            }
         }
 
 
 
         protected void Insertar(object sender, EventArgs e)
         {
+            int i = 0; //variable contador
             //string id = txtID.Text;
             string nombre = txtNombre.Text;
             string apellidos = txtApellidos.Text;
@@ -34,6 +38,8 @@ namespace Recepcion.Paginas
             personasRegistradas.Add(
                 new Persona { Nombre = nombre, Apellido = apellidos, Cedula = cedula, CantidadPersonas = cantidadPersonas, Habitacion = habitacion, Noches = noches, Total = total }
             );
+            personasRegistradas[i].crearHilo();
+            i++;
 
             //txtID.Text = "";
             txtNombre.Text = "";
@@ -80,6 +86,8 @@ namespace Recepcion.Paginas
 
 
         }
+
+        
 
         protected void btnRegresar_Click(object sender, EventArgs e)
         {
