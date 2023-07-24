@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -28,6 +29,21 @@ namespace Recepcion.Paginas
             public string Habitacion { get; set; }
             public int Noches { get; set; }
             public double Total { get; set; }
+
+            public void crearHilo()
+            {
+                Thread t1 = new Thread(new ThreadStart(tiempoReserva));
+                t1.Start();
+                //t1.Join(); // Halt the execution till thread execution completed
+                
+            }
+
+            public void tiempoReserva()
+            {
+                //Cada noche representa un minuto
+                Thread.Sleep(this.Noches * 60000);
+
+            }
 
             public override string ToString()
             {
