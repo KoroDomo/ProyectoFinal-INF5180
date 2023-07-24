@@ -67,11 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Hospedar.css" />
     <Content Include="css\Index.css" />
-    <Content Include="img\cinco.jpg" />
-    <Content Include="img\cuatro.jpg" />
+    <Content Include="css\VerHab.css" />
     <Content Include="img\dos.jpg" />
-    <Content Include="img\tres.jpg" />
     <Content Include="img\uno.jpg" />
     <Content Include="Paginas\HospedarPersona.aspx" />
     <Content Include="Paginas\Index.aspx" />

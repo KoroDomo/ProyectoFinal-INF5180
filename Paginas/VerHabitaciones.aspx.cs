@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -30,39 +29,25 @@ namespace Recepcion.Paginas
             public int Noches { get; set; }
             public double Total { get; set; }
 
-            public void crearHilo()
-            {
-                Thread t1 = new Thread(new ThreadStart(tiempoReserva));
-                t1.Start();
-                //t1.Join(); // Halt the execution till thread execution completed
-                
-            }
-
-            public void tiempoReserva()
-            {
-                //Cada noche representa un minuto
-                Thread.Sleep(this.Noches * 60000);
-
-            }
-
             public override string ToString()
             {
                 return "Nombre: " + Nombre + " | Apellidos: " + Apellido + " | Cedula" + Cedula;
             }
 
         }
+        //Metodo para cargar las habitaciones
         private void CargarHabitaciones()
         {
             List<Persona> listaPersonas = ObtenerPersonasDesdeLaBaseDeDatos();
-              GridView1.DataSource = listaPersonas;
-              GridView1.DataBind();
+              //GridView1.DataSource = listaPersonas;
+              //GridView1.DataBind();
            
             for (int i = 0; i < Table1.Rows.Count; i++)
             {
                 TableRow row = Table1.Rows[i];
                 for (int j = 0; j < row.Cells.Count; j++)
                 {
-                    lbltitulo.Text= row.Cells[j].ToString();
+                    //lbltitulo.Text= row.Cells[j].ToString();
                     TableCell cell = row.Cells[j];
                     foreach (Control control in cell.Controls)
                     {
@@ -71,21 +56,21 @@ namespace Recepcion.Paginas
                             button.Click += btnHabitacion_Click;
                             string habitacion = button.CssClass;
                             string numerohabitacion=button.Text;
-                            bool habitacionOcupada = ObtenerEstadoHabitacion(habitacion);
+                            bool habitacionLibre = ObtenerEstadoHabitacion(habitacion);
 
-                            if (habitacionOcupada !=false)
-                            {
-                                button.CssClass = "HabitacionOcupada";
-                                button.Text = $"{numerohabitacion} Ocupada";
-                            }
-                            else if(habitacionOcupada==false)
+                            //if (habitacionLibre != false)
+                            // Si la hab esta libre
+                            if (habitacionLibre)
                             {
                                 button.Click += btnHabitacion_Click;
                                 button.CssClass = "HabitacionLibre";
-
-
                                 
-                               
+                            }
+                            else if(habitacionLibre == false)
+                            {
+                                button.CssClass = "HabitacionOcupada";
+                                button.Text = $"{numerohabitacion} Ocupada";
+
                             }
 
 
@@ -105,21 +90,23 @@ namespace Recepcion.Paginas
             string prueba= botonHabitacion.CssClass;
             string habitacion = botonHabitacion.Text;
            
-            bool habitacionOcupada = ObtenerEstadoHabitacion(prueba);
-           
-            if (habitacionOcupada != false)
+            bool habitacionLibre = ObtenerEstadoHabitacion(prueba);
+
+            //if (habitacionOcupada != false)
+            // Si la hab esta libre ir al fomrulario, de lo contrario mostrar datos de persona
+            if (habitacionLibre)
             {
                 Persona personaOcupandoHabitacion = ObtenerPersonaOcupandoHabitacion(habitacion);
                 List<Persona> listaPersonas = new List<Persona> { personaOcupandoHabitacion };
-                GridView1.DataSource = listaPersonas;
-                GridView1.DataBind();
-               
-              
+                //GridView1.DataSource = listaPersonas;
+                //GridView1.DataBind();
+                Response.Redirect("HospedarPersona.aspx?habitacion=" + habitacion);
+
             }
             else 
             {
-                
-                Response.Redirect("HospedarPersona.aspx?habitacion=" +habitacion);
+                //Por el momento se queda en VerHab
+                Response.Redirect("VerHabitaciones.aspx");
             }
         }
         public TimeSpan TiempoDeAlquilerRestante(DateTime FechaDeReserva)
@@ -130,8 +117,8 @@ namespace Recepcion.Paginas
 
         private bool ObtenerEstadoHabitacion(string habitacion)
         {
-            if (habitacion.Equals("HabitacionLibre")) { 
-            
+            if (habitacion.Equals("HabitacionLibre")){
+                
                 return true;
 
             }
