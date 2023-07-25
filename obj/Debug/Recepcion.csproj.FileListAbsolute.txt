@@ -175,3 +175,180 @@ G:\Recepcion\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
 G:\Recepcion\obj\Debug\Recepcion.csproj.CopyComplete
 G:\Recepcion\obj\Debug\Recepcion.dll
 G:\Recepcion\obj\Debug\Recepcion.pdb
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\Recepcion.dll.config
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\Recepcion.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\Recepcion.pdb
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csc.exe
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csc.exe.config
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csc.rsp
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csi.exe
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csi.exe.config
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\csi.rsp
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.AppContext.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Console.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.IO.Compression.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Net.Http.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.ValueTuple.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\vbc.exe
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\vbc.exe.config
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\vbc.rsp
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\VBCSCompiler.exe
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\obj\Debug\Recepcion.csproj.CopyComplete
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\obj\Debug\Recepcion.dll
+C:\Users\ofloo\source\repos\Practicas\ProyectoFinal-INF5180\Recepcion\obj\Debug\Recepcion.pdb
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.pdb
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\Recepcion.dll.config
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\Recepcion.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\Recepcion.pdb
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csc.exe
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csc.exe.config
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csc.rsp
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csi.exe
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csi.exe.config
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\csi.rsp
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.AppContext.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Console.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.Compression.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Net.Http.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.ValueTuple.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\vbc.exe
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\vbc.exe.config
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\vbc.rsp
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\VBCSCompiler.exe
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shade\Documents\sh\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.CopyComplete
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\Recepcion.dll.config
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\Recepcion.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\Recepcion.pdb
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csc.exe
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csc.exe.config
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csc.rsp
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csi.exe
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csi.exe.config
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\csi.rsp
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.AppContext.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Console.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.Compression.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Net.Http.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.ValueTuple.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\vbc.exe
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\vbc.exe.config
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\vbc.rsp
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\VBCSCompiler.exe
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.AssemblyReference.cache
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.CoreCompileInputs.cache
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.csproj.CopyComplete
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.dll
+C:\Users\Wagner Alcantara\Downloads\ProyectoFinal-INF5180-main\obj\Debug\Recepcion.pdb
