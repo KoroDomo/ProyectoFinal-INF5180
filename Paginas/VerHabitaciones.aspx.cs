@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,6 +18,7 @@ namespace Recepcion.Paginas
             if (!IsPostBack)
             {
 
+
                 CargarHabitaciones();
             }
         }
@@ -21,117 +26,189 @@ namespace Recepcion.Paginas
         {
             public string Nombre { get; set; }
             public string Apellido { get; set; }
-            public int ID { get; set; }
-            public DateTime FechaDeReserva { get; set; }
+            public string Cedula { get; set; }
+            public int CantidadPersonas { get; set; }
+            public string Habitacion { get; set; }
+            public int Noches { get; set; }
+            public double Total { get; set; }
+
+          
+
+            public override string ToString()
+            {
+                return "Nombre: " + Nombre + " | Apellidos: " + Apellido + " | Cedula" + Cedula+"| Cantidad Personas "+CantidadPersonas+"| Habitacion "+Habitacion+"| Noches "+Noches+" |Total "+Total;
+            }
+
         }
+        //Metodo para cargar las habitaciones
         private void CargarHabitaciones()
         {
             List<Persona> listaPersonas = ObtenerPersonasDesdeLaBaseDeDatos();
-              GridView1.DataSource = listaPersonas;
-              GridView1.DataBind();
-           
-            for (int i = 0; i < Table1.Rows.Count; i++)
+          // List<Button> buttonLista = BotonesAsignadosHabitacion();
+            
+            foreach (TableRow row in Table1.Rows)
             {
-                TableRow row = Table1.Rows[i];
-                for (int j = 0; j < row.Cells.Count; j++)
+                foreach (TableCell cell in row.Cells)
                 {
-                    lbltitulo.Text= row.Cells[j].ToString();
-                    TableCell cell = row.Cells[j];
                     foreach (Control control in cell.Controls)
                     {
                         if (control is Button button)
                         {
-                            button.Click += btnHabitacion_Click;
-                            string habitacion = button.CssClass;
-                            string numerohabitacion=button.Text;
-                            bool habitacionOcupada = ObtenerEstadoHabitacion(habitacion);
 
-                            if (habitacionOcupada !=false)
+                            foreach (Persona p in listaPersonas)
                             {
-                                button.CssClass = "HabitacionOcupada";
-                                button.Text = $"{numerohabitacion} Ocupada";
-                            }
-                            else if(habitacionOcupada==false)
-                            {
-                                button.Click += btnHabitacion_Click;
-                                button.CssClass = "HabitacionLibre";
-
-
-                                
+                                if (p.Habitacion.Equals(button.Text))
+                                {
+                                    button.CssClass = "HabitacionOcupada";
+                                    cell.CssClass = "HabitacionOcupada";
+                                    button.Text= $"{p.Habitacion} Ocupado";
+                                }
                                
                             }
+                        
+                        
+                        
+                        
+                        }
 
 
-                            Response.Redirect("HospedarPersona.aspx?habitacion=" + habitacion);
+
 
                         }
+
+
+
+
                     }
-                }
             }
 
-        }
+
+
+
+
+
+
+
+
+
+
+
+                }
 
         protected void btnHabitacion_Click(object sender, EventArgs e)
         {
             Button botonHabitacion = (Button)sender;
-           
-            string prueba= botonHabitacion.CssClass;
-            string habitacion = botonHabitacion.Text;
-           
-            bool habitacionOcupada = ObtenerEstadoHabitacion(prueba);
-           
-            if (habitacionOcupada != false)
-            {
-                Persona personaOcupandoHabitacion = ObtenerPersonaOcupandoHabitacion(habitacion);
-                List<Persona> listaPersonas = new List<Persona> { personaOcupandoHabitacion };
-                GridView1.DataSource = listaPersonas;
-                GridView1.DataBind();
-               
-              
-            }
-            else 
-            {
-                
-                Response.Redirect("HospedarPersona.aspx?habitacion=" +habitacion);
-            }
-        }
-        public TimeSpan TiempoDeAlquilerRestante(DateTime FechaDeReserva)
-        {
-            TimeSpan tiempotranscurrido = DateTime.Now - FechaDeReserva;
-            return tiempotranscurrido;
-        }
-        private bool ObtenerEstadoHabitacion(string habitacion)
-        {
-            if (habitacion.Equals("HabitacionLibre")) { 
-            
-            return true;
+
+            string prueba = botonHabitacion.CssClass;
+            string h = botonHabitacion.Text;
+
+
+            if (prueba.Equals("HabitacionOcupada")) {
+
+
+                Response.Redirect("VerHabitaciones.aspx");
 
             }
             else
             {
-                return false;
+                Session["Habitacion"] =h.Substring(0, 3);
+                Response.Redirect("HospedarPersona.aspx");
 
             }
-            
 
-         
+
+        
         }
+       
+        private List<Button> BotonesAsignadosHabitacion()
+        {
 
+            List<Button> botones = new List<Button>();
+            Button btn = new Button();
+            btn.CssClass = "HabitacionLibre";
+          
+            try
+            {
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Hotel"].ConnectionString);
+                string sCon = "SELECT * FROM Cliente";
+
+                SqlDataReader dt;
+
+                if (con.State != ConnectionState.Open)
+                {
+                    con.Open();
+                }
+
+                Console.WriteLine("Conexion exitosa!");
+
+                SqlCommand cmd = new SqlCommand(sCon, con);
+                dt = cmd.ExecuteReader();
+                while (dt.Read())
+                {
+                   
+                    btn.Text = dt[1].ToString();
+
+                   botones.Add(btn);
+
+                }
+                dt.Close();
+
+                con.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
+
+
+
+
+            return botones;
+        } 
+
+        
+        /*Aqui obtiene a las personas de las habitaciones asignadas*/
         private List<Persona> ObtenerPersonasDesdeLaBaseDeDatos()
         {
-            List<Persona> listaPersonas = new List<Persona>
+            List<Persona> lista = new List<Persona> { };
+            try
             {
-                new Persona { Nombre = "Harry", Apellido = "Potter", ID = 11234564, FechaDeReserva = new DateTime(2023, 7, 1) },
-                new Persona { Nombre = "Silver", Apellido = "Gomez", ID = 2564654, FechaDeReserva = new DateTime(2023, 7, 5) },
-                new Persona { Nombre = "Glorfindel", Apellido = "De La Flor", ID = 354655464, FechaDeReserva = new DateTime(2023, 7, 10) },
-            };
-            return listaPersonas;
-        }
-        private Persona ObtenerPersonaOcupandoHabitacion(string habitacion)
-        {
-            return new Persona { Nombre = "Juan", Apellido = "Perez", ID = 1, FechaDeReserva = new DateTime(2023, 7, 1) };
-        }
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Hotel"].ConnectionString);
+                string sCon = "SELECT * FROM Cliente";
 
+                SqlDataReader dt;
+
+                if (con.State != ConnectionState.Open)
+                {
+                    con.Open();
+                }
+
+                Console.WriteLine("Conexion exitosa!");
+
+                SqlCommand cmd = new SqlCommand(sCon, con);
+                dt = cmd.ExecuteReader();
+                while (dt.Read())
+                {
+                   
+                    lista.Add( new Persona { Nombre = dt[1].ToString(), Apellido = dt[2].ToString(), Cedula = dt[3].ToString(), CantidadPersonas =int.Parse(dt[4].ToString()), Habitacion = dt[5].ToString(), Noches = int.Parse(dt[6].ToString()), Total = Double.Parse(dt[7].ToString()) });
+                   
+                }
+                dt.Close();
+              
+                con.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
+
+
+           
+            return lista;
+        }
+       
  
     }
 }
