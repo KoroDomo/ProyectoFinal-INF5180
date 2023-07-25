@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Web;
@@ -32,17 +33,29 @@ namespace Recepcion.Paginas
 
             public void crearHilo()
             {
+                                
                 Thread t1 = new Thread(new ThreadStart(tiempoReserva));
+                
                 t1.Start();
                 //t1.Join(); // Halt the execution till thread execution completed
                 
+                
+                //t1.Join(); // Halt the execution till thread execution completed
+
             }
 
             public void tiempoReserva()
             {
                 //Cada noche representa un minuto
+                Stopwatch sw = new Stopwatch();
+                sw.Start();
                 Thread.Sleep(this.Noches * 60000);
-
+                sw.Stop();
+                TimeSpan ts = sw.Elapsed;
+                string et = String.Format("{0}:{1}:{2}", ts.Hours,
+                ts.Minutes, ts.Seconds);
+                System.Diagnostics.Debug.WriteLine("TotalTime: " + et);
+                System.Diagnostics.Debug.WriteLine("Thread Execution Completed");
             }
 
             public override string ToString()
