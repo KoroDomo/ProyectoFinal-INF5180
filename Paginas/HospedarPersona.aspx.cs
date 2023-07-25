@@ -38,8 +38,7 @@ namespace Recepcion.Paginas
             personasRegistradas.Add(
                 new Persona { Nombre = nombre, Apellido = apellidos, Cedula = cedula, CantidadPersonas = cantidadPersonas, Habitacion = habitacion, Noches = noches, Total = total }
             );
-            personasRegistradas[i].crearHilo();
-            i++;
+            
 
             //txtID.Text = "";
             txtNombre.Text = "";
@@ -51,21 +50,29 @@ namespace Recepcion.Paginas
             lblPrecio.Text = "0.00";
 
             var datasource = @"OFLO\SQLEXPRESS"; //Nombre de la Base de la conexion
-            var database = "Hotel"; //Nombre de la Base de Datos
+            var database = "hotel"; //Nombre de la Base de Datos
             string str = "Data Source =" + datasource + ";Initial Catalog=" + database + ";Integrated Security=True;MultipleActiveResultSets=True";
-            string query = "INSERT INTO Cliente(nombre, apellidos, cedula, cantidad, habitacion, noches, total) VALUES(@Nombre, @Apellidos, @Cedula, @Cantidad, @Habitacion, @Noches, @Total)";
+            string query1 = "INSERT INTO clientes(nombre, apellido, cedula) VALUES(@Nombre, @Apellidos, @Cedula)";
+            string query2 = "INSERT INTO habitaciones(codigo_habitacion) VALUES(@Habitacion)";
+            //string query3 = "INSERT INTO reservacion(cantidad_noches, status) VALUES(@Habitacion)";
             using (SqlConnection con = new SqlConnection(str))
             {
-                using (SqlCommand cmd = new SqlCommand(query))
+                using (SqlCommand cmd = new SqlCommand(query1))
                 {
-                    //cmd.Parameters.AddWithValue("@ID", id);
+
                     cmd.Parameters.AddWithValue("@Nombre", nombre);
                     cmd.Parameters.AddWithValue("@Apellidos", apellidos);
                     cmd.Parameters.AddWithValue("@Cedula", cedula);
-                    cmd.Parameters.AddWithValue("@Cantidad", cantidadPersonas);
+                    cmd.Connection = con;
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+
+                using (SqlCommand cmd = new SqlCommand(query2))
+                {
+
                     cmd.Parameters.AddWithValue("@Habitacion", habitacion);
-                    cmd.Parameters.AddWithValue("@Noches", noches);
-                    cmd.Parameters.AddWithValue("@Total", total);
                     cmd.Connection = con;
                     con.Open();
                     cmd.ExecuteNonQuery();
@@ -83,7 +90,8 @@ namespace Recepcion.Paginas
                 System.Diagnostics.Debug.WriteLine(persona.ToString());
             }
 
-
+            personasRegistradas[i].crearHilo();
+            i++;
 
         }
 
