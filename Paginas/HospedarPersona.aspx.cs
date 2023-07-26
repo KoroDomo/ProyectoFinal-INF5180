@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -13,10 +14,7 @@ namespace Recepcion.Paginas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (sender is Button)
-            {
-                
-            }
+            
         }
 
 
@@ -45,40 +43,109 @@ namespace Recepcion.Paginas
             txtApellidos.Text = " ";
             txtCedula.Text = " ";
             txtCantidad.Text = " ";
-            txtNoches.Text = "0";
+            txtNoches.Text = "";
             lblSeleccion.Text = "";
             lblPrecio.Text = "0.00";
 
+            int idCliente = 0;
+            int idHabitacion = 1;
             var datasource = @"OFLO\SQLEXPRESS"; //Nombre de la Base de la conexion
             var database = "hotel"; //Nombre de la Base de Datos
             string str = "Data Source =" + datasource + ";Initial Catalog=" + database + ";Integrated Security=True;MultipleActiveResultSets=True";
-            string query1 = "INSERT INTO clientes(nombre, apellido, cedula) VALUES(@Nombre, @Apellidos, @Cedula)";
-            string query2 = "INSERT INTO habitaciones(codigo_habitacion) VALUES(@Habitacion)";
+            string query1 = "INSERT INTO clientes(nombre, apellido, cedula) VALUES(@Nombre, @Apellidos, @Cedula); SELECT SCOPE_IDENTITY();";
+            string query2 = "INSERT INTO reservacion(id_cliente, id_habitacion, cantidad_noches, cantidad_personas, status) VALUES(@IdCliente, @IdHabitacion, @Noches, @Personas, @Status)";
             //string query3 = "INSERT INTO reservacion(cantidad_noches, status) VALUES(@Habitacion)";
             using (SqlConnection con = new SqlConnection(str))
             {
-                using (SqlCommand cmd = new SqlCommand(query1))
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand(query1, con))
                 {
 
                     cmd.Parameters.AddWithValue("@Nombre", nombre);
                     cmd.Parameters.AddWithValue("@Apellidos", apellidos);
                     cmd.Parameters.AddWithValue("@Cedula", cedula);
+                    idCliente = Convert.ToInt32(cmd.ExecuteScalar());
                     cmd.Connection = con;
-                    con.Open();
-                    cmd.ExecuteNonQuery();
+                    //con.Open();
+                    //cmd.ExecuteNonQuery();
                     con.Close();
                 }
 
-                using (SqlCommand cmd = new SqlCommand(query2))
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand(query2, con))
                 {
 
-                    cmd.Parameters.AddWithValue("@Habitacion", habitacion);
+                    cmd.Parameters.AddWithValue("@IdCliente", idCliente);
+                    //reservarHabitacion();
+                    cmd.Parameters.AddWithValue("@IdHabitacion", idCliente);
+                    cmd.Parameters.AddWithValue("@Noches", noches);
+                    cmd.Parameters.AddWithValue("@Personas", cantidadPersonas);
+                    cmd.Parameters.AddWithValue("@Status", 1);
                     cmd.Connection = con;
-                    con.Open();
+                    //con.Open();
                     cmd.ExecuteNonQuery();
                     con.Close();
                 }
             }
+
+            void reservarHabitacion()
+            {
+                switch (habitacion)
+                {
+                    case "A-1":
+                        idHabitacion = 1;
+                        break;
+                    case "A-2":
+                        idHabitacion = 2;
+                        break;
+                    case "A-3":
+                        idHabitacion = 3;
+                        break;
+                    case "A-4":
+                        idHabitacion = 4;
+                        break;
+                    case "B-1":
+                        idHabitacion = 5;
+                        break;
+                    case "B-2":
+                        idHabitacion = 6;
+                        break;
+                    case "B-3":
+                        idHabitacion = 7;
+                        break;
+                    case "B-4":
+                        idHabitacion = 8;
+                        break;
+                    case "C-1":
+                        idHabitacion = 9;
+                        break;
+                    case "C-2":
+                        idHabitacion = 10;
+                        break;
+                    case "C-3":
+                        idHabitacion = 11;
+                        break;
+                    case "C-4":
+                        idHabitacion = 12;
+                        break;
+                    case "D-1":
+                        idHabitacion = 13;
+                        break;
+                    case "D-2":
+                        idHabitacion = 14;
+                        break;
+                    case "D-3":
+                        idHabitacion = 15;
+                        break;
+                    case "D-4":
+                        idHabitacion = 16;
+                        break;
+                    default:
+                        idHabitacion = 0;
+                        break;
+                }
+            }
+                       
             
 
             lblConfirmacion.Visible = true;
